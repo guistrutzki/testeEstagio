@@ -1,0 +1,36 @@
+
+h2 {
+    color: #ede7f6;
+    font-size: 1.8em;
+}
+
+.input-field > label{
+    color: #ede7f6 !important;
+}
+
+input{
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+thead td {
+    font-weight: bold;
+    background-color: #9575cd;
+    text-align: center;
+}
+
+.header, footer{
+    opacity: 0.5;
+}
+
+nav i{
+    font-size: 2.0em !important;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.disable {
+    display: none;
+}
