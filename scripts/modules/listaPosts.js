@@ -20,7 +20,7 @@ export default function (paginate){
             posts.slice(0,paginate).forEach( (post, index) => {
                 tbody.innerHTML += "<tr><td>"+ post.id + "</td><td>"
                     + post.userId + "</td><td>" + post.title + "</td><td>"
-                    +post.body + "</td><td><i id="+ post.id +" class='material-icons teste' >delete</i></td></tr>"
+                    +post.body + "</td><td><i id="+ post.id +" class='material-icons teste' >delete</i></a></td></tr>"
             })
         })
 }
