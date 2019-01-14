@@ -4,11 +4,12 @@ import initEnviaPost from "./modules/enviaPost.js";
 import initBuscaPosts from "./modules/buscaPosts.js";
 import ScrollLink from './modules/scroll-link.js';
 import initApagaPost from './modules/apagaPost.js';
+import initValidaForm from './modules/validaForm.js';
 
 // Inits
-
-initListaPosts(10);
 initEnviaPost();
+initListaPosts();
+initValidaForm();
 initBuscaPosts();
 initApagaPost();
 
