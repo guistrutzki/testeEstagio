@@ -9,7 +9,6 @@ export default function (paginate){
     let numPosts;
 
     paginate = document.querySelectorAll('spam');
-    console.log(paginate);
 
     paginate.forEach( opcao =>{
         opcao.addEventListener('click', setPaginate)

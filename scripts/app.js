@@ -9,8 +9,9 @@ import initValidaForm from './modules/validaForm.js';
 // Inits
 
 
-initListaPosts(10);
+
 initEnviaPost();
+initListaPosts(10);
 initValidaForm();
 initBuscaPosts();
 initApagaPost();
