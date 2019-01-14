@@ -4,18 +4,13 @@ import initEnviaPost from "./modules/enviaPost.js";
 import initBuscaPosts from "./modules/buscaPosts.js";
 import ScrollLink from './modules/scroll-link.js';
 import initApagaPost from './modules/apagaPost.js';
-import initValidaForm from './modules/validaForm.js';
 
 // Inits
 
-
-
-initEnviaPost();
 initListaPosts(10);
-initValidaForm();
+initEnviaPost();
 initBuscaPosts();
 initApagaPost();
-
 
 // Objetos
 const scrollLink = new ScrollLink('.js-menu a[href^="#"]');

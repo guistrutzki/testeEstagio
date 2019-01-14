@@ -29,7 +29,7 @@
             <div class="col s3"></div>
             <div class="col s6" id="createPosts">
                 <h2 class="">Criar posts</h2>
-                <form id="createPost">
+                <form>
                     <div class="input-field col s12">
                         <input type="text" id="id" class="">
                         <label class="active" for="id">Digite o seu ID</label>
@@ -51,17 +51,12 @@
                 </form>
             </div> <!-- COL S-4 -->
         </div> <!-- ROW -->
-    <div class="divider"></div>
+
 
     <div class="row" id="show">
         <div class="col s2"></div>
         <div class="col s8 id=showPost">
             <h2>Listagem de postagens</h2>
-            <p class="nm_pages">Numero de posts</p>
-            <spam id="pagina10" class="paginas">10</spam>
-            <spam id="pagina30" class="paginas">30</spam>
-            <spam id="pagina50" class="paginas">50</spam>
-            <spam id="paginaAll" class="paginas">Todos</spam>
             <table id="tabela" class="centered highlight">
                 <thead>
                 <td>Post ID</td>
@@ -76,11 +71,11 @@
         </div>
     </div>
 
-    <div class="divider"></div>
+
     <!--  BUSCAR POSTS PELO ID -->
     <div class="row" id="buscaPost">
-        <div class="col s3"></div>
-        <div class="col s6">
+        <div class="col s4"></div>
+        <div class="col s4">
             <h2>Buscar posts pelo ID do usuário</h2>
             <form>
                 <input type="text" id="idBusca">
@@ -93,8 +88,7 @@
     <div class="row">
         <div class="col s2"></div>
         <div class="col s8">
-            <h2>Resultado da busca</h2>
-            <table id="tabelaBusca" class="highlight">
+            <table border="1" id="tabelaBusca">
                 <thead>
                 <td>Post ID</td>
                 <td>Usuario ID</td>
@@ -122,10 +116,10 @@
         </div>
     </footer>
 
-
+    <!-- App.js é traduzido para o bundle.js -->
 <script src="./scripts/app.js" type="module"></script>
     <!-- CDN do Axios -->
-<!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 </body>
 </html>

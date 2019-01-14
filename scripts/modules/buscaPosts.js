@@ -29,7 +29,7 @@ export default function (){
 
         let idPesquisa = document.getElementById('idBusca').value;
         let url = "https://jsonplaceholder.typicode.com/posts/?userId=" + idPesquisa;
-        
+
         console.log(url);
         fetch(url, options)
             .then( response => response.json())
@@ -44,7 +44,7 @@ export default function (){
 
                         tbody.innerHTML += "<tr class='ativo'><td>"+ post.id + "</td><td>"
                             + post.userId + "</td><td>" + post.title + "</td><td>"
-                            +post.body + "</td><td><i id="+ post.id +" class='material-icons'>delete</i></a></td></tr>"
+                            +post.body + "</td><td><i id="+ post.id +" class='material-icons'>delete</i></td></tr>"
                 })
 
             });

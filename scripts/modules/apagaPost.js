@@ -10,8 +10,6 @@ export default function (){
         });
     }
 
-
-
     function deletePost(event) {
         event.preventDefault();
         const idPostagem = event.currentTarget.getAttribute('id');
