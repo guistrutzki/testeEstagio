@@ -49,3 +49,28 @@ i:hover {
 .divider {
     margin: 60px 0 60px 0;
 }
+
+.text-red {
+    color: red;
+}
+
+.vazio {
+    border-bottom-color: red !important;
+}
+
+.paginas{
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 1.1em;
+    color: #ede7f6;
+}
+
+.paginas:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.nm_pages{
+    font-size: 1.5em;
+    color: #ede7f6;
+}
